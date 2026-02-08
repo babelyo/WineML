@@ -8,7 +8,6 @@ from sklearn.model_selection import GridSearchCV
 
 df = pd.read_csv('winequality_white.csv', sep=';')
 print(df)
-
 print(df.quality.value_counts())
 
 X = df.iloc[:,:-1]  # wszystkie kolumny, bez ostatniej
